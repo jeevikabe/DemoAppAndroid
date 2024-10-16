@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ನನ್ನ ಡೆಮೊ ಅಪ್ಲಿಕೇಶನ್</string>
+    <string name="topics">ವಿಷಯಗಳು</string>
+    <string name="select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="logout_message">ನೀವು ಲಾಗ್ ಔಟ್ ಮಾಡಲು ಬಯಸುತ್ತಿರಾ?</string>
+    <string name="yes">ಹೌದು</string>
+    <string name="cancel">ರದ್ದುಗೊಳಿಸು</string>
+
+
+
+        <string name="button_fragments">ಫ್ರಾಗ್ಮೆಂಟ್‌ಗಳು</string>
+        <string name="button_multimedia">ಮಲ್ಟಿಮೆಡಿಯಾ</string>
+        <string name="button_map">ನಕ್ಷೆ</string>
+        <string name="button_alert">ಅಲರ್ಟ್ ಡೈಲಾಗ್</string>
+        <string name="button_recycler_search">ಹುಡುಕಲು ಆಯ್ಕೆ ಹೊಂದಿರುವ ರಿಸೈಕ್ಲರ್ ವ್ಯೂ</string>
+        <string name="button_menu">ಆಂಡ್ರಾಯ್ಡ್ ಮೆನು</string>
+        <string name="button_text_to_speech">ಲೇಖನದಿಂದ ಮಾತಿಗೆ</string>
+        <string name="button_webview">ವೆಬ್ ವೀಕ್ಷಣೆ</string>
+        <string name="button_retrofit">ರೆಟ್ರೋಫಿಟ್</string>
+        <string name="button_swipe">ಅಳಿಸಲು ಮತ್ತು ನವೀಕರಣಕ್ಕಾಗಿ ಸ್ವೈಪ್</string>
+        <string name="button_alarm">ಆಲಾರ್ಮ್</string>
+        <string name="button_room">ರೂಮ್ ಡೇಟಾಬೇಸ್</string>
+        <string name="button_json">ಜೇನ್ಸ್ ಪಾರ್ಸರ್</string>
+        <string name="button_carousel_slider">ಕ್ಯಾರೋಸೆಲ್ ಸ್ಲೈಡರ್</string>
+        <string name="button_image_show">ಚಿತ್ರ ಪ್ರದರ್ಶನ</string>
+        <string name="button_image_upload">ಚಿತ್ರ ಅಪ್‌ಲೋಡ್</string>
+        <string name="button_video_upload">ವೀಡಿಯೋ ಅಪ್‌ಲೋಡ್</string>
+        <string name="button_file_upload">ಫೈಲ್ ಅಪ್‌ಲೋಡ್</string>
+        <string name="button_audio_upload">ಆಡಿಯೋ ಅಪ್‌ಲೋಡ್</string>
+        <string name="button_scanner">ಸ್ಕ್ಯಾನರ್</string>
+        <string name="button_zip_upload">ಜಿಪ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್</string>
+        <string name="button_sqlite">ಎಸ್‌ಕ್ಯೂಎಲ್‌ಐಟಿ ಡೇಟಾಬೇಸ್</string>
+        <string name="button_load_scroll">ಸ್ಕ್ರೋಲ್‌ನಲ್ಲಿ ಲೋಡ್ ಮಾಡಿ</string>
+        <string name="button_firebase">ಫೈರ್‌ಬೇಸ್</string>
+        <string name="button_crashlytics">ಫೈರ್‌ಬೇಸ್ ಕ್ರ್ಯಾಶ್‌ಲಿಟಿಕ್‌ಗಳು</string>
+        <string name="button_logout">ಲಾಗ್ ಔಟ್</string>
+
+
+
+
+
+
+        <string name="btn1_text">ಫ್ರಾಗ್ಮೆಂಟ್‌ಗಳು</string>
+        <string name="btn2_text">ಮಲ್ಟಿಮೀಡಿಯಾ</string>
+        <string name="btn3_text">ನಕ್ಷೆ</string>
+        <string name="btn4_text">ಅಲರ್ಟ್ ಡೈಲಾಗ್</string>
+        <string name="btn5_text">ರಿಸೈಕ್ಲರ್ ವ್ಯೂ</string>
+        <string name="btn6_text">ಆಂಡ್ರಾಯ್ಡ್ ಮೆನು</string>
+        <string name="btn7_text">ಪಠ್ಯ ನುಡಿಗೆ</string>
+        <string name="btn8_text">ವೆಬ್ ವೀಕ್ಷಕ</string>
+        <string name="btn9_text">ಲಾಗ್‌ಔಟ್</string>
+        <string name="btn10_text">ರೆಟ್ರೋಫಿಟ್</string>
+        <string name="btn11_text">ಡಿಲೀಟ್ ಮಾಡಿ, ರಿಫ್ರೆಶ್ ಮಾಡಿ</string>
+        <string name="btn12_text">ಅಲಾರ್ಮ್</string>
+        <string name="btn13_text">ರೂಮ್ ಡೇಟಾಬೇಸ್</string>
+        <string name="btnJSON_text">JSON ಪಾರ್ಸರ್</string>
+        <string name="btnCarouselslider_text">ಕಾರೋಸೆಲ್ ಸ್ಲೈಡರ್</string>
+        <string name="btnGlide_text">ಚಿತ್ರ ತೋರಿಸು</string>
+        <string name="btnApi_text"> ಚಿತ್ರ ಅಪ್‌ಲೋಡ್</string>
+        <string name="btnVideo_text">ವೀಡಿಯೊ ಅಪ್‌ಲೋಡ್</string>
+        <string name="btnPdf_text">ಫೈಲ್ ಅಪ್‌ಲೋಡ್</string>
+        <string name="btnAudio_text">ಆಡಿಯೊ ಅಪ್‌ಲೋಡ್</string>
+        <string name="btnScan_text">ಸ್ಕ್ಯಾನರ್</string>
+        <string name="btnZip_text">ಜಿಪ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್</string>
+        <string name="btnDb_text">SQLITE ಡೇಟಾಬೇಸ್</string>
+        <string name="btnLoad_text">ಸ್ಕ್ರೋಲ್‌ನಲ್ಲಿ ಲೋಡ್</string>
+        <string name="btnFire_text">ಫೈರ್ಬೇಸ್</string>
+        <string name="btnCrash_text">ಫೈರ್ಬೇಸ್ ಕ್ರ್ಯಾಶ್ಲಿಟಿಕ್ಸ್</string>
+
+    <string name="location_tracking">ಲೋಕೆಶನ್ ಟ್ರ್ಯಾಕಿಂಗ್</string>
+    <string name="local_broadcast">ಲೋಕರಲ್ ಬ್ರಾಡ್ಕಾಸ್ಟ್</string>
+    <string name="content_providers">ಕಾಂಟೆಂಟ್ ಪ್ರೊವೈಡರ್‌ಗಳು</string>
+    <string name="authentication">ಆಥೆಂಟಿಕೇಶನ್</string>
+    <string name="authentication_up">ಆಥೆಂಟಿಕೇಶನ್ ಅಪ್</string>
+
+    <string name="set_alarm">ಅಲಾರ್ಮ್ ಸೆಟ್ ಮಾಡಿ</string>
+    <string name="crash_app">ಆ್ಯಪ್ ಕ್ರ್ಯಾಶ್ ಮಾಡಿ</string>
+    <string name="start_scanner">ಸ್ಕ್ಯಾನರ್ ಪ್ರಾರಂಭಿಸಿ</string>
+
+    <string name="normal_alert_dialog">ನಾರ್ಮಲ್ ಅಲರ್ಟ್ ಡೈಲಾಗ್</string>
+    <string name="progress_dialog">ಪ್ರಗತಿ ಡೈಲಾಗ್</string>
+    <string name="custom_alert_dialog">ಕಸ್ಟಮ್ ಅಲರ್ಟ್ ಡೈಲಾಗ್</string>
+    <string name="full_screen_alert_dialog">ಪೂರ್ಣ ಪರದೆ ಅಲರ್ಟ್ ಡೈಲಾಗ್</string>
+    <string name="full_screen_loading_bar">ಪೂರ್ಣ ಪರದೆ ಲೋಡಿಂಗ್ ಬಾರ್</string>
+    <string name="capture_image">ಕ್ಯಾಪ್ಚರ್ ಇಮೇಜ್</string>
+    <string name="capture_video">ಕ್ಯಾಪ್ಚರ್ ವೀಡಿಯೋ</string>
+    <string name="record_audio">ರಿಕೋರ್ಡ್ ಆಡಿಯೋ</string>
+    <string name="pick_document">ಪಿಕ್ ಡಾಕ್ಯುಮೆಂಟ್</string>
+    <string name="play_audio">ಪ್ಲೇ ಆಡಿಯೋ</string>
+
+    <string name="upload">ಅಪ್‌ಲೋಡ್</string>
+    <string name="progress">ಪ್ರಗತಿ</string>
+
+
+
+
+</resources>

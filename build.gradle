@@ -1,0 +1,28 @@
+buildscript {
+
+    dependencies {
+/*
+        //classpath 'com.google.gms:google-services:4.3.14'
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:17.4.1' // Check for the latest version*/
+        classpath 'com.google.gms:google-services:4.3.15' // Latest version
+        classpath 'com.android.tools.build:gradle:8.0.2' // Match with plugins
+        //classpath 'com.google.firebase:firebase-crashlytics-gradle:17.4.1' // Check for the latest version
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.0' // Use a valid version
+
+        classpath 'com.android.tools.build:gradle:8.0.2' // or try 8.0.2
+
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.0.2' apply false
+    id 'com.android.library' version '8.0.2' apply false
+
+    // Add the dependency for the Crashlytics Gradle plugin
+    //id 'com.google.firebase.crashlytics' version '3.0.2' apply false
+    id 'com.google.firebase.crashlytics' version '2.9.0' apply false // Update version as needed
+
+}
+
+

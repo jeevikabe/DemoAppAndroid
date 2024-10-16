@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="19dp">
+
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address" />
+
+    <Button
+        android:id="@+id/geoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Coordinates (Geocoding)" />
+
+
+    <EditText
+        android:id="@+id/latitudeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Latitude"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/longitudeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/reverseGeoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Address (Reverse Geocoding)" />
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Result will appear here" />
+
+</LinearLayout>

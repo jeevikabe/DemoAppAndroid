@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCaptureImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Image" />
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnCaptureVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Video" />
+
+        <!-- VideoView with play/pause overlay -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnPlayPauseVideo"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <!-- Horizontal LinearLayout for audio buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnRecordAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Record Audio" />
+
+            <Button
+                android:id="@+id/btnPlayPauseAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Audio"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPickDocument"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Document"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/documentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+</ScrollView>

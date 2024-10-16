@@ -1,0 +1,7 @@
+<Employee>
+    <cityName>New York</cityName>
+    <Latitude>40.7128</Latitude>
+    <Longitude>-74.0060</Longitude>
+    <Temperature>15</Temperature>
+    <Humidity>60</Humidity>
+</Employee>

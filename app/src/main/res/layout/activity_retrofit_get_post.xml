@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT"
+        android:textColor="#1A063E"
+        android:textSize="24sp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/getButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/ApiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API Server POST"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/ApigetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API Server GET"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
