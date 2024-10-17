@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.demoapp.R;
 
 public class CarouselAdapter extends RecyclerView.Adapter<CarouselAdapter.ViewHolder> {
-
+      //new branch
+private final int[] new resources;
+    
     private final int[] imageResources;
 
     public CarouselAdapter(int[] imageResources) {
